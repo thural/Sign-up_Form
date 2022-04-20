@@ -1,0 +1,7 @@
+:root, .form-section {
+    display: flex;
+}
+
+.form-section {
+    flex-flow: column wrap;
+}
