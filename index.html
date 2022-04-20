@@ -41,19 +41,39 @@
                 <div class="form-area">
 
                     <div class="name-area">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="first_name" required>
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="first_name" required>
+                        </div>
 
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="last_name" required>
+                        <div>
+                            <label for="lastName">LAST NAME:</label>
+                            <input type="text" id="lastName" name="last_name" required>
+                        </div>
                     </div>
 
                     <div class="contact-area">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="sample@email.com" required>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="sample@email.com" required>
+                        </div>
 
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" id="phoneNumber" placeholder="+49 500 400 30">
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" placeholder="+49 500 400 30">
+                        </div>
+                    </div>
+
+                    <div class="password-area">
+                        <div>
+                            <label for="psw">PASSWORD</label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                        </div>
+
+                        <div>
+                            <label for="psw-repeat">REPEAT PASSWORD</label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        </div>
                     </div>
 
                 </div>
@@ -61,6 +81,10 @@
 
             <div class="submit">
                 <button>Create Account</button>
+            </div>
+
+            <div>
+                Already have an account? <a href="#" style="color: red; font-size: 16px;font-weight: 500;">Login</a>
             </div>
 
         </div>
