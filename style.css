@@ -58,13 +58,14 @@ a {
 .form-area > * {
     display: flex;
     flex-direction: row;
-    margin-bottom: 4vw;
+    margin-bottom: 1vw;
 }
 
 .form-area div div {
     display: flex;
     flex-direction: column;
     margin-right: 64px;
+    margin-bottom: 16px;
 }
 
 input {
@@ -85,3 +86,27 @@ h1 {
     font-size: 24px;
     font-weight: 500;
 }
+
+input:focus {
+    border-color: rgb(116, 116, 255);
+    outline: none;
+}
+
+button {
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: rgb(255, 47, 47);
+    border-color: rgb(255, 47, 47);
+    color: white;
+    border:none;
+    padding: 8px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.headers h1:last-child {
+    margin-top: 1.5vw;
+ }
